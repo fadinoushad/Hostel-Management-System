@@ -37,16 +37,17 @@
                     <div class="form-right-inf">
                         <h2>Student Login</h2>
                         <div class="login-form-content">
-                            <form action="#" class="signin-form" method="post">
+                            <form action="student_backend/login.inc.php" class="signin-form" method="post">
                                 <div class="one-frm">
-                                    <input type="email" name="Email" placeholder="Email" required="" autofocus>
+                                    <input type="text" name="student_roll_no" placeholder="Roll No" required="" autofocus>
                                 </div>
                                 <div class="one-frm">
-                                    <input type="password" name="Password" placeholder="Password" required="">
+                                    <input type="password" name="pwd" placeholder="Password" required="">
                                 </div>
-                                <button class="btn btn-style mt-3">Login </button>
-                                <p class="already">Login as <a href="#signin">Hostel Manager/Admin</a></p>
-                                <p class="already" style="margin-top : -1px; text-align: center;">Don't have an account? <a href="#signin">Sign up</a></p>
+                                <button class="btn btn-style mt-3" name="student-login">Login </button>
+                                <p class="already" style="margin-bottom : -25px; text-align: center;">Login as <a href="index_ha.php">Admin</a></p>
+                                <p class="already">Login as <a href="index_hm.php">Hostel Manager</a></p>
+                                <p class="already" style="margin-top : -1px; text-align: center;">Don't have an account? <a href="index_signup.php">Sign up</a></p>
                             </form>
                         </div>
                     </div>
